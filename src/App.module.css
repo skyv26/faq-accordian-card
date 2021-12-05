@@ -1,0 +1,102 @@
+.Main {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(
+    to bottom,
+    #af67e9,
+    #9f67e9,
+    #8d66e9,
+    #7a66e8,
+    #6565e7
+  );
+  padding-top: 12rem;
+  padding-bottom: 8rem;
+}
+
+.BoxImage {
+  display: none;
+}
+
+@media (min-width: 22em){
+  .Main {
+    padding-top: 16rem;
+  }
+}
+
+@media (min-width: 33em){
+  .Main {
+    padding-top: 18rem;
+  }
+}
+@media (min-width: 40em){
+  .Main {
+    padding-top: 28rem;
+    padding-bottom: 10rem;
+  }
+}
+@media (min-width: 48em){
+  .Main {
+    padding-top: 30rem;
+  }
+}
+
+
+@media (min-width: 64em){
+  .Main {
+    padding: 12% 0;
+  }
+
+  .BoxImage {
+    display: block;
+    position: absolute;
+    left: 15.5rem;
+    top: 33rem;
+    z-index: 50;
+    transform: translate(-15%, -50%);
+  }
+
+  .BoxImage img {
+    display: block;
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+@media (min-width: 85em){
+  .Main {
+    /* height: 100vh; */
+    padding: 12% 0;
+  }
+
+  .BoxImage {
+    display: block;
+    position: absolute;
+    left: 22.25rem;
+    top: 44rem;
+    z-index: 50;
+    transform: translate(-15%, -50%);
+  }
+
+  .BoxImage img {
+    display: block;
+    width: 15rem;
+    height: 15rem;
+  }
+}
+@media (min-width: 90em){
+  .BoxImage {
+    display: block;
+    position: absolute;
+    left: 26.75rem;
+    top: 45rem;
+    z-index: 50;
+    transform: translate(-15%, -50%);
+  }
+
+  .BoxImage img {
+    display: block;
+    width: 15rem;
+    height: 15rem;
+  }
+}

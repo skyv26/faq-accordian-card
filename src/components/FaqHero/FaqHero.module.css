@@ -1,0 +1,123 @@
+.HeroImage {
+  display: inline-block;
+  width: 100%;
+  height: 14rem;
+  background-image: url(../../assests/illustration-woman-online-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin-top: -40%;
+  z-index: 10;
+}
+
+.HeroImage::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 8rem;
+  top: 60%;
+  background-image: url(../../assests/bg-pattern-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 10;
+}
+
+@media (min-width: 20em) {
+  .HeroImage {
+    height: 15rem;
+    margin-top: -37.5%;
+  }
+  .HeroImage::after {
+    height: 8.5rem;
+    top: 63%;
+  }
+}
+
+@media (min-width: 22em) {
+  .HeroImage {
+    height: 18rem;
+    margin-top: -39%;
+  }
+
+  .HeroImage::after {
+    height: 10rem;
+    top: 63%;
+  }
+}
+
+@media (min-width: 25em) {
+  .HeroImage {
+    height: 18rem;
+    margin-top: -34%;
+  }
+}
+@media (min-width: 25.7em) {
+  .HeroImage {
+    height: 18rem;
+    margin-top: -34%;
+  }
+}
+
+@media (min-width: 33em) {
+  .HeroImage {
+    height: 27rem;
+    margin-top: -37%;
+  }
+  .HeroImage::after {
+    height: 15rem;
+    top: 65%;
+  }
+}
+@media (min-width: 40em) {
+  .HeroImage {
+    height: 34rem;
+    margin-top: -39%;
+  }
+  .HeroImage::after {
+    height: 19rem;
+    top: 65%;
+  }
+}
+@media (min-width: 48em) {
+  .HeroImage {
+    height: 39rem;
+    margin-top: -37%;
+  }
+  .HeroImage::after {
+    height: 22rem;
+    top: 65%;
+  }
+}
+
+@media (min-width: 64em) {
+  .HeroImage {
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-image: url(../../assests/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-left: -17%;
+    z-index: 10;
+  }
+
+  .HeroImage::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: -18%;
+    background-image: url(../../assests/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    z-index: 8;
+    transform: scale(2.4);
+    left: -43%;
+  }
+}

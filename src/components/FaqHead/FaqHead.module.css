@@ -1,0 +1,35 @@
+@import url("../../utility/css/global.css");
+
+.FaqHead {
+  text-transform: uppercase;
+  font-weight: var(--bold);
+  color: var(--primary-blue);
+  align-self: center;
+  font-size: 2.2rem;
+}
+
+@media (min-width: 22em) {
+  .FaqHead {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 25em) {
+  .FaqHead {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .FaqHead {
+    font-size: 2.4rem;
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 90em) {
+  .FaqHead {
+    font-size: 3rem;
+    align-self: flex-start;
+  }
+}

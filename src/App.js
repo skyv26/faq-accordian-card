@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import FaqTextContainer from "./components/FaqTextContainer/FaqTextContainer";
+import FaqHead from "./components/FaqHead/FaqHead";
+import FaqList from "./components/FaqList/FaqList";
+import Card from "./UI/Card/Card";
+import FaqHero from "./components/FaqHero/FaqHero";
+import styles from "./App.module.css";
+import Box from './assests/illustration-box-desktop.svg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.Main}>
+      <Card>
+        <figure className={styles.BoxImage}>
+          <img src={Box} alt="box illustration" />
+        </figure>
+        <FaqHero />
+          <FaqTextContainer>
+            <FaqHead />
+            <FaqList />
+          </FaqTextContainer>
+      </Card>
     </div>
   );
 }

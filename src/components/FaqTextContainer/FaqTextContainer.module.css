@@ -1,0 +1,99 @@
+@import url("../../utility/css/global.css");
+
+.FaqTextContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 50;
+  gap: 1.25rem;
+}
+
+@media (min-width: 64em) {
+  .FaqTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    z-index: 50;
+
+  }
+}
+
+@media (min-width: 90em) {
+  .FaqTextContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    z-index: 50;
+
+  }
+}
+/* @media (min-width: 22em) and (min-height: 42em){
+  .FaqTextContainer {
+    height: 65rem;
+    margin-top: 14.75rem;
+    padding: 12.6rem 2rem 5rem 2rem;
+  }
+}
+
+
+@media (min-width: 23em){
+  .FaqTextContainer {
+    height: 58rem;
+  }
+}
+
+@media (min-width: 23em) and (min-height: 42em){
+  .FaqTextContainer {
+    height: 60rem;
+    margin-top: 16rem;
+    padding: 14rem 2rem 5rem 2rem;
+ 
+  }
+  
+}
+
+
+@media (min-width: 25em) {
+  .FaqTextContainer {
+    height: 63rem;
+    margin-top: 19rem;
+    padding: 13.75rem 2rem 5rem 2rem;
+  }
+}
+
+@media (min-width: 25.7em) {
+  .FaqTextContainer {
+    height: 64rem;
+    margin-top: 16rem;
+    padding: 14.75rem 2rem 5rem 2rem;
+  }
+}
+
+@media (min-width: 26.4em) {
+  .FaqTextContainer {
+    margin-top: 18rem;
+    padding: 14.75rem 2rem 5rem 2rem;
+  }
+}
+
+@media (min-width: 48em) {
+  .FaqTextContainer {
+    height: 96rem;
+    margin-top: 35rem;
+    padding: 22rem 5rem 5rem 5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .FaqTextContainer {
+    height: 96rem;
+    margin-top: 35rem;
+    padding: 22rem 5rem 5rem 5rem;
+  }
+}
+
+ */

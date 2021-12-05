@@ -1,0 +1,13 @@
+:root {
+    --primary-blue: hsl(238, 29%, 16%);
+    --primary-red: hsl(14, 88%, 65%);
+    --background-violet: hsl(273, 75%, 66%);
+    --background-blue: hsl(240, 73%, 65%);
+    --text-grayblue:hsl(237, 12%, 33%);
+    --text-darkblue: hsl(240, 6%, 50%);
+    --divider: hsl(240, 5%, 91%);
+    --bold: 700;
+    --thin: 400;
+    --initialHeight: 0; 
+    --cardHeight: 0;
+}

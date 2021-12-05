@@ -1,0 +1,108 @@
+@import url("../../utility/css/global.css");
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 88%;
+  height: 42.25rem;
+  background-color: white;
+  margin: auto;
+  border-radius: 2rem;
+  padding: 0 2rem;
+  gap: 5rem;
+}
+
+.BoxImage {
+  display: none;
+}
+
+
+@media (min-width: 20em) {
+  .Card {
+    height: 45rem;
+  }
+}
+
+@media (min-width: 22em) {
+  .Card {
+    height: 50rem;
+  }
+}
+@media (min-width: 23em) {
+  .Card {
+    height: 49rem;
+  }
+}
+@media (min-width: 25em) {
+  .Card {
+    gap: 7rem;
+    height: 58rem;
+  }
+}
+
+@media (min-width: 33em) {
+  .Card {
+    gap: 10rem;
+    height: 74rem;
+  }
+}
+
+@media (min-width: 40em) {
+  .Card {
+    gap: 12rem;
+    height: 94rem;
+  }
+}
+@media (min-width: 48em) {
+  .Card {
+    gap: 14rem;
+    height: 106rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .Card {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 35rem;
+    background-color: white;
+    margin: auto;
+    border-radius: 2rem;
+    gap: 5rem;
+    overflow: hidden;
+    padding: 5rem;
+    justify-content: space-between;
+  }
+  
+}
+
+@media (min-width: 64em) {
+  .Card {
+    width: 60%;
+    height: 45rem;
+    background-color: white;
+    margin: auto;
+    border-radius: 2rem;
+    gap: 5rem;
+    overflow: hidden;
+    padding: 5rem;
+    justify-content: space-between;
+  }
+  
+}
+@media (min-width: 90em) {
+  .Card {
+    width: 56%;
+    height: 45rem;
+    background-color: white;
+    margin: auto;
+    border-radius: 2rem;
+    gap: 5rem;
+    overflow: hidden;
+    padding: 5rem;
+    justify-content: space-between;
+  }
+  
+}
